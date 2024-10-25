@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  /* Set the JavaScript language version. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for CommonJS modules. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
+    "resolveJsonModule": true                            /* Enable importing .json files. */
+  },
+  "include": ["src/**/*", "src/**/*.svelte"],             /* Include all TypeScript and Svelte files in the 'src' folder. */
+  "exclude": ["node_modules"]                            /* Exclude 'node_modules'. */
+}
