@@ -12,16 +12,16 @@
 
 
 <div class = 'flex flex-col flex-wrap  align-middle justify-center h-[calc(100dvh_-_124px)]'>
-     <!-- {$navbarHeight} -->
+     {$navbarHeight}
     <span class='text-8xl flex flex-wrap text-center '>Hi I'm <span class= 'font-bold'>Timon Vermeersch!</span></span>
     <span class='text-2xl flex flex-wrap text-center' >self-employed Software engineer</span>
 </div>
 
 
-<div class='bg-red-100 flex flex-col h-dvh p-4 '>
+<div class='bg-red-100 flex flex-col  p-4 '>
 
     <div class='flex flex-1 flex-wrap justify-evenly m-4'>
-         <AboutCards image="/xd.jpg" class=' flex-1 flex items-center justify-center p-2 m-4 rounded' bg={''} title={'About Me'} body="I build solutions that cut to the chase. Every project I take on is an exercise in practicality and precision, created with an intentional blend of efficiency and user focus. I don’t settle for what just “works”—I aim for what works best, with an approach that’s as adaptive as it is purposeful. My projects are functional to their core, designed to make the complex feel simple and to empower users without any unnecessary clutter.
+         <AboutCards  image="/xd.jpg" class=' flex-1 flex items-center justify-center p-2 m-4 rounded' bg={''} title={'About Me'} body="I build solutions that cut to the chase. Every project I take on is an exercise in practicality and precision, created with an intentional blend of efficiency and user focus. I don’t settle for what just “works”—I aim for what works best, with an approach that’s as adaptive as it is purposeful. My projects are functional to their core, designed to make the complex feel simple and to empower users without any unnecessary clutter.
             "/> 
 
         <AboutCards image="/omo.webp" class=' flex-1 flex items-center justify-center p-2 m-4 rounded' title="Mission" body="To design software that’s smart, streamlined, and purpose-built. I believe that great tools don’t just solve problems—they solve them seamlessly, giving users exactly what they need. My mission? To create applications that are lean, adaptable, and built to meet real-world demands without distraction."/> 
