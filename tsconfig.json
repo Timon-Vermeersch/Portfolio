@@ -9,5 +9,7 @@
     "resolveJsonModule": true                            /* Enable importing .json files. */
   },
   "include": ["src/**/*", "src/**/*.svelte"],             /* Include all TypeScript and Svelte files in the 'src' folder. */
-  "exclude": ["node_modules"]                            /* Exclude 'node_modules'. */
+  "exclude": ["node_modules"],                            /* Exclude 'node_modules'. */
+  "extends": "./.svelte-kit/tsconfig.json"
+  
 }
