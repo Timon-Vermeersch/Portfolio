@@ -5,7 +5,7 @@
 	import BreadCrumb from '../lib/breadCrumb.svelte';
 </script>
 
-<div class = 'min-h-dvh  bg-customColors-5'>
+<div class = 'min-h-dvh  bg-white'>
 	<Container >
 	{@render children()}
 	</Container>

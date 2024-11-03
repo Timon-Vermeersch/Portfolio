@@ -11,7 +11,7 @@
 //   });
 </script>
 
-<Navbar class="navbar bg-customColors-4 p-2 pb-4 sm:p-0.1">
+<Navbar class="navbar bg-customColors-5 p-2 pb-4 sm:p-0.1">
 	<NavBrand href="/">
 	  <img src="logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" />
 	  <!-- <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Timon Vermeersch</span> -->
